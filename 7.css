@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+nav {
+    background-color: #343a40;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    display: block;
+    float: left;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #495057;
+}
+
+.home-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.home-section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.home-section h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.places {
+    text-align: center;
+    padding: 50px;
+}
+
+.places img {
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+.expenses {
+    text-align: center;
+    padding: 50px;
+}
+
+.expenses figure {
+    display: inline-block;
+    width: 30%;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.expenses img {
+    width: 100%;
+    height: auto;
+}
+
+.expenses figcaption {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.expenses p {
+    margin: 10px 0;
+}
+
+.expenses .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.expenses .button:hover {
+    background-color: #0056b3;
+}
+
+footer.mfoot {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer.mfoot h4 {
+    margin: 0;
+}
+
+footer.mfoot span {
+    display: block;
+    margin-top: 5px;
+}
